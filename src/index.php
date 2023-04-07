@@ -49,6 +49,7 @@ $connect -> close();
 		<div style="padding-top: 30px;">
 			<ul>
 				<a href="./write/write.php" target=_blank>Write</a>
+				<a href="./write/write.php" target=_blank>Delete</a>
 			</ul>
 		</div>
 
@@ -77,7 +78,7 @@ $connect -> close();
 				<!--<td>$no</td>--><!--post index. retrieved from db-->
 				<td><?php echo $index; ?></td><!--post index. retrieved from db-->
 				<td class="subject">
-					<!--<input type="checkbox" id="" name="" value="" title="" /> -->
+					<input type="checkbox" id="" name="" value="" title="" />
 					<a href="./view/view.php?index=<?php echo $index; ?>"><?php echo $subject; ?></a>
 				</td><!--subject or post title. retrieved from db-->
 				<!--<td>writer's name</td>--><!--writer's name. retrieved from db-->
